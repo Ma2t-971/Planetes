@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #1B2430;
+}
+
+.entt{
+    height: 170px;
+    width: 100%;
+}
+
+
+
+.main{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    max-width: 800px;
+    margin: auto;
+}
+
+footer{
+    background-color: #1B2430;
+    color: white;
+    padding-bottom: 5px;
+}
+
+header .content{
+    max-width: 800px;
+    margin: auto;
+    align-items: center;
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .content img{
+    height: 30px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav li{
+    
+    font-size: 12px;
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav li:hover{
+    border-bottom: solid 1px;
+    border-color: aliceblue;
+}
+
+nav li:last-of-type{
+    margin-right: 5px;
+}
+
+
+
+.pdp ul{
+    list-style-type: none;
+}
+
+.pdp ul li{
+    text-align: center;
+    color: gray;
+}
+.pdp ul li:hover{
+    border-bottom: solid 1px;
+    width: fit-content;
+    margin: auto;
+}
+
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+
+footer h2{
+    font-size: 17px;
+}
+
+.last{
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+footer .content{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 800px;
+    margin: auto;
+}
+
+.article , .spe{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+    align-content: center;
+}
+
+.article img{
+    width: 180px;
+}
+
+.article p{
+    text-align: justify;
+}
+
+.rightblock{
+    margin-left: 30px;
+    width: 100%;
+}
+
+.leftblock{
+    width: 100%;
+    margin-right: 30px;
+}
+
+.date{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.tellurique{
+    background-color: goldenrod;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.gaz{
+    background-color: blueviolet;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.hr{
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.hr::before , .hr::after{
+    background: currentColor;
+    content: "";
+    flex: 1;
+    height: .025em;
+    margin: 0.5;
+}
+
+.article{
+    margin: 20px 0px;
+}
